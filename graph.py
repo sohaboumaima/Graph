@@ -1,4 +1,3 @@
-import pygame
 class Graph:
 
     # Initialize the graph.
