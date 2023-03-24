@@ -3,7 +3,6 @@ class Graph:
     # Initialize the graph.
     def __init__(self):
         self.g = {}
-        pass
 
     # Return the list of nodes in the graph.
     def get_node_list(self):
@@ -25,8 +24,14 @@ class Graph:
         # To be implemented
         pass
 
+    # Check if a node is in the graph.
+    def is_in_graph(self, v):
+        # To be implemented
+        pass
+
     # Delete edge
     def del_edge(self, v, w):
+        # To be implemented
         pass
 
     # Delete node from the graph
@@ -34,15 +39,14 @@ class Graph:
         for k in self.g[v]:
             self.g[k].remove[v]
         del self.g[v]
-        pass
 
     # Add edge connecting the nodes v and w
     def add_edge(self, v, w):
         self.g[v].append(w)
         self.g[w].append(v)
-        pass
 
-    # Returns the path from node u to node v, if it exists. Return empty list otherwise.
-    def find_path(self, u, v):
-        pass
+
+
+
+
 
